@@ -1,0 +1,29 @@
+/* Colors */
+$color-dark-blue: rgb(46, 37, 128);
+$color-purple: rgb(99, 92, 161);
+$color-purple-light: rgb(151, 146, 192);
+$color-turquoise: rgb(43, 181, 186);
+$color-turquoise-light: rgb(137, 217, 219);
+$color-light-blue: rgb(213, 250, 255);
+$color-accent: rgb(243, 57, 94);
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+$font-size-regular: 16px;
+$font-size-small: 14px;
+$font-size-tiny: 12px;
+$font-body: "Nunito", sans-serif;
+$font-title: "Raleway", sans-serif;
+/* 12-column grid system */
+$col-rel: 100%/12;
+$col-padding: 10px;
+@function col-width($n) {
+  @return $n * $col-rel;
+}
+/* Layout */
+$margin-page: 2em;
+$header-margin-bottom: 1em;
+/* Misc classes */
+.text-center {
+  text-align: center;
+}
