@@ -24,7 +24,7 @@ $ npm start
 
 Le serveur sera accessible à l'adresse [http://localhost:8080](http://localhost:8080).
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+> Le squelette du proto a été généré avec le [template Webpack de VueJS](https://vuejs-templates.github.io/webpack/).
 
 ## Réutilisation pour d'autres usages
 
