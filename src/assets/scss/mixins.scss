@@ -58,7 +58,7 @@
   z-index: 10 - $index;
   @extend %shadow;
   margin: 0;
-  padding: 42px $margin-page;
+  padding: $margin-page;
   color: $color;
 
   h2 {

@@ -4,6 +4,7 @@
     <QuiSommesNous/>
     <Actions/>
     <News/>
+    <CallsToAction/>
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import QuiSommesNous from './QuiSommesNous'
 import Actions from './Actions'
 import News from './News'
+import CallsToAction from './CallsToAction'
 
 export default {
   name: 'LandingPage',
   components: {
     QuiSommesNous,
     Actions,
-    News
+    News,
+    CallsToAction
   }
 }
 </script>

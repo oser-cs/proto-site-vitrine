@@ -68,8 +68,7 @@ export default {
         h5 {
             color: gray;
             font-weight: normal;
-            margin: 0;
-            padding: 0;
+            margin-top: .5em;
         }
         a {
             text-decoration: none;

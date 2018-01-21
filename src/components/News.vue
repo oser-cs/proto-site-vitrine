@@ -60,7 +60,6 @@ export default {
     @include landing-section(3);
     .heading {
         text-align: center;
-        // margin-bottom: 3em;
     }
     .link-all {
         text-align: center;
